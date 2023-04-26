@@ -4,8 +4,6 @@ import About from '@/components/about'
 import Contact from '@/components/contact'
 import Hero from '@/components/hero'
 import { aboutData, education, experience, heroData, projects, skills } from '@/utils/mockdata'
-import Image from 'next/image'
-
 
 export default function Home() {
   return (

@@ -1,21 +1,25 @@
-import './globals.css'
+import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: 'Niek van der Plas',
-  description: 'Online portfolio of Niek van der Plas',
+  title: "Niek van der Plas",
+  description: "Online portfolio of Niek van der Plas",
   icons: {
-    icon: '/favicon.png'
-  }
-}
+    icon: "/favicon.png",
+  },
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
-  )
+  );
 }
