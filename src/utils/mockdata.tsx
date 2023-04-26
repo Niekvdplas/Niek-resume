@@ -1,4 +1,4 @@
-import heroImage from "../images/header-background.webp";
+import heroImage from "../images/bg.jpg";
 import profileImage from "../images/1575025488285.jpeg";
 import woodzImage from "../images/woodz.png";
 import deltaImage from "../images/lhddelta.png";
