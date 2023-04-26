@@ -149,6 +149,13 @@ export const projects: Card[] = [
     href: "https://repository.tudelft.nl/islandora/object/uuid:fe195c17-ecf5-4811-a987-89f238a6802f",
     image: "https://opengraph.githubassets.com/25281c37000814e31a325c00c87c68ffc0da43c32c4ee0f751a5b5516aa3ede2/microsoft/CodeBERT",
     tags: ["GPT-3", "CodeBERT", "Python", "Machine Learning", "NLP", "Regex", "Git", "Flask"]
+  },
+  {
+    title: "ChatGPT clone",
+    description: "I got access to the GPT-4 API and created a simple clone of the ChatGPT website. This website allows you to chat with a GPT-4 model.",
+    href: "https://github.com/Niekvdplas/chat",
+    image: "https://uploads-ssl.webflow.com/5b105a0c66f2f636c7884a17/64063dbcad97bd421b437096_chatgpt.jpg",
+    tags: ["GPT-4", "OpenAI", "NextJS 13", "Tailwind"]
   }
 
 ]
