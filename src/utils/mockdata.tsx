@@ -104,14 +104,14 @@ export const projects: Card[] = [
       "A website for a local company that sells and installs windows and doors.",
     href: "https://www.woodzkozijnen.nl",
     image: woodzImage,
-    tags: ["Next JS", "Tailwind", "Typescript", "Sanity IO", "Front end development"],
+    tags: ["Next JS", "Tailwind", "Typescript", "Sanity IO", "Front end development", "SSR", "Caching and revalidation"],
   },
   {
     title: "L.H.D. Delta",
     description: "A website I created for my fraternity in Leiden.",
     href: "https://www.lhddelta.nl",
     image: deltaImage,
-    tags: ["Next JS", "Tailwind", "Typescript", "AWS", "DynamoDB", "Amazon S3", "Amazon Amplify", "GraphQL"]
+    tags: ["Next JS", "Tailwind", "Typescript", "AWS", "DynamoDB", "Amazon S3", "Amazon Amplify", "GraphQL", "ISR", "SSR", "Caching and revalidation"]
   },
   {
     title: "X-arm robot clock",

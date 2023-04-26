@@ -5,7 +5,7 @@ export default function PortFolioCard({ props }: { props: Card }) {
     <a href={props.href}>
     <div className=" bg-neutral-100 rounded-xl">
       <div className="max-w-sm rounded overflow-hidden shadow-lg">
-        {typeof(props.image) === "string" ? <img className="w-full" src={`${props.image}`} alt="Mountain" /> : 
+        {props.image && typeof(props.image) === "string" ? <img className="w-full" src={`${props.image}`} alt="Mountain" /> : 
             <Image
               alt="portfolio-image"
               className="w-full"
