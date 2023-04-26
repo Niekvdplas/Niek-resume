@@ -1,5 +1,5 @@
 import heroImage from "../images/bg.jpg";
-import profileImage from "../images/1575025488285.jpeg";
+import profileImage from "../images/pf.jpg";
 import woodzImage from "../images/woodz.png";
 import deltaImage from "../images/lhddelta.png";
 
