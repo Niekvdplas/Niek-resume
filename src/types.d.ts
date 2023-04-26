@@ -41,7 +41,7 @@ type Card = {
     title: string;
     description: string;
     href?: string;
-    image?: string;
+    image?: string | StaticImageData;
     tags: string[];
   };
 

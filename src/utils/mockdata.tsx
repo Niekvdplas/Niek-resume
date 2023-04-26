@@ -1,5 +1,8 @@
 import heroImage from "../images/header-background.webp";
 import profileImage from "../images/1575025488285.jpeg";
+import woodzImage from "../images/woodz.png";
+import deltaImage from "../images/lhddelta.png";
+
 import {
   AcademicCapIcon,
   CalendarIcon,
@@ -99,15 +102,15 @@ export const projects: Card[] = [
     title: "Woodz kozijnen",
     description:
       "A website for a local company that sells and installs windows and doors.",
-    href: "www.woodzkozijnen.nl",
-    image: "http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Fwww.woodzkozijnen.nl",
+    href: "https://www.woodzkozijnen.nl",
+    image: woodzImage,
     tags: ["Next JS", "Tailwind", "Typescript", "Sanity IO", "Front end development"],
   },
   {
     title: "L.H.D. Delta",
     description: "A website I created for my fraternity in Leiden.",
-    href: "www.lhddelta.nl",
-    image: "http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Fwww.lhddelta.nl",
+    href: "https://www.lhddelta.nl",
+    image: deltaImage,
     tags: ["Next JS", "Tailwind", "Typescript", "AWS", "DynamoDB", "Amazon S3", "Amazon Amplify", "GraphQL"]
   },
   {
@@ -134,7 +137,7 @@ export const projects: Card[] = [
   {
     title: "Lunch site",
     description: "During my Bachelor study I worked part-time at a local software company. During this time I created a website for the company's lunch service. Which had all state-of-the-art technologies at the time.",
-    tags: ["CI/CD", "Kubernetes", ".NET Core", "Angular", "SQL Server", "Azure", "Docker", "Typescript", "C#", "3rd party APIs (Rabobank, GCP)"],
+    tags: ["CI/CD", "Kubernetes", ".NET Core", "Angular", "SQL Server", "Azure", "Docker", "Typescript", "C#", "3rd party APIs (Rabobank, GCP)", "ADFS/OAuth 2.0", "SSL Certificates", "DevOps"],
   },
   {
     title: "Citizen complaint classification",
@@ -166,7 +169,7 @@ export const aboutData: about = {
   description: `I am a recently graduated software engineer with a strong affinity for IT and cutting-edge projects.
   With my enterprising skills, I can take the lead, am able to quickly learn new topics or skills and am willing to take well-calculated risks and work hard to achieve the desired results. 
   Through my love for travelling, I am able to plan ahead while considering all relevant options. The ability to handle and deal with unexpected changes in unknown situations is something that defines me. 
-  I am a people’s person and like to work together and motivate others to believe in an idea by engaging them in the process. I am not afraid to ask for help whenever I feel stuck.`,
+  I am a people's person and like to work together and motivate others to believe in an idea by engaging them in the process.`,
   aboutItems: [
     {
       label: "Location",
