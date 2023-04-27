@@ -8,14 +8,14 @@ export default function Contact() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col items-center md:items-start w-full">
             <h2 className="text-6xl font-bold mb-2">Get in touch.</h2>
-            <p className="text-xl mb-4 pr-16">
+            <p className="text-xl mb-4 ">
               {/* Tell readers how to reach you without saying you are looking for a new job*/}
               If you&apos;re interested in connecting with me, I&apos;d love to
               hear from you. Feel free to drop me a message, and I&apos;ll be
               happy to chat about potential opportunities or collaborate on
               exciting projects. Looking forward to connecting!
             </p>
-            <div className="flex flex-col md:flex-row items-center gap-x-4">
+            <div className="flex flex-row items-center gap-x-4">
               {/* href email with subject how to do that */}
               <a
                 href="mailto:niekvanderplas1@gmail.com?subject=Contact from website:"

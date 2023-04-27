@@ -128,7 +128,7 @@ export const projects: Card[] = [
     tags: ["Angular", "Apache Kafka", "Websockets", "Docker", "MongoDB", "Spring Boot"],
   },
   {
-    title: "Contribution to OSS",
+    title: "Contributions to OSS",
     description: "Several contributions to open source projects such as Kubernetes and Ktrain.",
     href: "https://github.com/amaiya/ktrain",
     image: "https://github.com/amaiya/ktrain/raw/master/ktrain_logo_200x100.png",
