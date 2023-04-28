@@ -26,15 +26,10 @@ export const heroData: hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I am a <strong className="text-stone-100">software engineer</strong> based in Leiden, currently working at
-        <strong className="text-stone-100">Capgemini</strong>. I am passionate about creating innovative solutions that can
+        <strong className="text-stone-100"> Capgemini</strong>. I am passionate about creating innovative solutions that can
         transform the world around us. With my strong coding skills and drive to
         excel, I am committed to pushing the boundaries of what is possible and
-        making a positive impact on people&apos;s lives through technology. When I am
-        not coding, I enjoy staying active by hitting the gym, skiing in the
-        mountains, and exploring the world. I also value spending time with
-        friends and loved ones. I have a proven track record of successfully
-        delivering complex software projects and thrive in a collaborative,
-        fast-paced environment.
+        making a positive impact on people&apos;s lives through technology.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can find me in the{" "}
@@ -42,6 +37,11 @@ export const heroData: hero = {
         <strong className="text-stone-100">skiing</strong>, hanging out with my{" "}
         <strong className="text-stone-100">friends</strong>, or{" "}
         <strong className="text-stone-100">exploring</strong> the world.{" "}
+      </p>
+      <p>
+        I have a proven track record of successfully
+        delivering complex software projects and thrive in a collaborative,
+        fast-paced environment.
       </p>
     </>
   ),
