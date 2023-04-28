@@ -20,21 +20,28 @@ export const heroData: hero = {
     "A full-stack developer.",
     "A quick learner.",
     "A problem solver.",
-    "A leader."
+    "A leader.",
   ],
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I&apos;m a Leiden based{" "}
-        <strong className="text-stone-100">Software Engineer</strong>, currently
-        working at <strong className="text-stone-100">Capgemini</strong> determined to create innovative solutions that will transform the world around us.
-        With my passion for coding and my drive to excel, I am committed to pushing the boundaries of what is possible and making a positive impact on people&apos;s lives through technology. 
+        I am a <strong className="text-stone-100">software engineer</strong> based in Leiden, currently working at
+        <strong className="text-stone-100">Capgemini</strong>. I am passionate about creating innovative solutions that can
+        transform the world around us. With my strong coding skills and drive to
+        excel, I am committed to pushing the boundaries of what is possible and
+        making a positive impact on people&apos;s lives through technology. When I am
+        not coding, I enjoy staying active by hitting the gym, skiing in the
+        mountains, and exploring the world. I also value spending time with
+        friends and loved ones. I have a proven track record of successfully
+        delivering complex software projects and thrive in a collaborative,
+        fast-paced environment.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can find me in the <strong className="text-stone-100">gym</strong>,
-         in the mountains <strong className="text-stone-100">skiing</strong>,
-         hanging out with my <strong className="text-stone-100">friends</strong>, or{" "}
-         exploring the <strong className="text-stone-100">world.</strong>{" "}
+        In my free time, you can find me in the{" "}
+        <strong className="text-stone-100">gym</strong>, in the mountains{" "}
+        <strong className="text-stone-100">skiing</strong>, hanging out with my{" "}
+        <strong className="text-stone-100">friends</strong>, or{" "}
+        <strong className="text-stone-100">exploring</strong> the world.{" "}
       </p>
     </>
   ),
@@ -65,7 +72,7 @@ export const heroData: hero = {
       url: "#contact",
       icon: null,
       primary: false,
-    }
+    },
   },
   socials: {
     github: {
@@ -104,72 +111,141 @@ export const projects: Card[] = [
       "A website for a local company that sells and installs windows and doors.",
     href: "https://www.woodzkozijnen.nl",
     image: woodzImage,
-    tags: ["Next JS", "Tailwind", "Typescript", "Sanity IO", "Front end development", "SSR", "Caching and revalidation"],
+    tags: [
+      "Next JS",
+      "Tailwind",
+      "Typescript",
+      "Sanity IO",
+      "Front end development",
+      "SSR",
+      "Caching and revalidation",
+    ],
   },
   {
     title: "L.H.D. Delta",
     description: "A website I created for my fraternity in Leiden.",
     href: "https://www.lhddelta.nl",
     image: deltaImage,
-    tags: ["Next JS", "Tailwind", "Typescript", "AWS", "DynamoDB", "Amazon S3", "Amazon Amplify", "GraphQL", "ISR", "SSR", "Caching and revalidation"]
+    tags: [
+      "Next JS",
+      "Tailwind",
+      "Typescript",
+      "AWS",
+      "DynamoDB",
+      "Amazon S3",
+      "Amazon Amplify",
+      "GraphQL",
+      "ISR",
+      "SSR",
+      "Caching and revalidation",
+    ],
   },
   {
     title: "X-arm robot clock",
     description: "A 7-segment clock I created using an X-arm 7 robot arm.",
     href: "https://blog.decos.com/de-meest-digitale-klok-van-nederland",
-    image: "https://blog.decos.com/hs-fs/hubfs/blog%20robotklok.jpg?width=1200&name=blog%20robotklok.jpg",
+    image:
+      "https://blog.decos.com/hs-fs/hubfs/blog%20robotklok.jpg?width=1200&name=blog%20robotklok.jpg",
     tags: ["Python", "Robotics", "C++"],
   },
   {
     title: "Demo application with Apache Kafka and websockets",
-    description: "Demo application that reads data from Apache Kafka and send it to an Angular web application through a websocket connection.",
+    description:
+      "Demo application that reads data from Apache Kafka and send it to an Angular web application through a websocket connection.",
     href: "https://github.com/Niekvdplas/Kafka-Docker-Mongo-Angular",
-    image: "https://res.cloudinary.com/practicaldev/image/fetch/s--aIv4Kv5A--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oiwssqmq889dm2lkfl5z.png",
-    tags: ["Angular", "Apache Kafka", "Websockets", "Docker", "MongoDB", "Spring Boot"],
+    image:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--aIv4Kv5A--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oiwssqmq889dm2lkfl5z.png",
+    tags: [
+      "Angular",
+      "Apache Kafka",
+      "Websockets",
+      "Docker",
+      "MongoDB",
+      "Spring Boot",
+    ],
   },
   {
     title: "Contributions to OSS",
-    description: "Several contributions to open source projects such as Kubernetes and Ktrain.",
+    description:
+      "Several contributions to open source projects such as Kubernetes and Ktrain.",
     href: "https://github.com/amaiya/ktrain",
-    image: "https://github.com/amaiya/ktrain/raw/master/ktrain_logo_200x100.png",
-    tags: ["Python", "Kubernetes", "Machine Learning", "OSS", "Contributions"]
+    image:
+      "https://github.com/amaiya/ktrain/raw/master/ktrain_logo_200x100.png",
+    tags: ["Python", "Kubernetes", "Machine Learning", "OSS", "Contributions"],
   },
   {
     title: "Lunch site",
-    description: "During my Bachelor study I worked part-time at a local software company. During this time I crnpeated a website for the company's lunch service. Which had all state-of-the-art technologies at the time.",
-    tags: ["CI/CD", "Kubernetes", ".NET Core", "Angular", "SQL Server", "Azure", "Docker", "Typescript", "C#", "3rd party APIs (Rabobank, GCP)", "ADFS/OAuth 2.0", "SSL Certificates", "DevOps"],
+    description:
+      "During my Bachelor study I worked part-time at a local software company. During this time I crnpeated a website for the company's lunch service. Which had all state-of-the-art technologies at the time.",
+    tags: [
+      "CI/CD",
+      "Kubernetes",
+      ".NET Core",
+      "Angular",
+      "SQL Server",
+      "Azure",
+      "Docker",
+      "Typescript",
+      "C#",
+      "3rd party APIs (Rabobank, GCP)",
+      "ADFS/OAuth 2.0",
+      "SSL Certificates",
+      "DevOps",
+    ],
   },
   {
     title: "Citizen complaint classification",
-    description: "For my Bachelor thesis I fine-tuned a machine learning model (BERT) that classifies citizen complaints for Decos. The model was trained on 100.000+ complaints and was able to classify complaints with an accuracy of 84%. This model was exposed using a Flask API and containerized using Docker in Azure cloud. The model was used in a proof of concept for the local municipalities. It was graded with a 9 and was submitted to COLING'2020",
+    description:
+      "For my Bachelor thesis I fine-tuned a machine learning model (BERT) that classifies citizen complaints for Decos. The model was trained on 100.000+ complaints and was able to classify complaints with an accuracy of 84%. This model was exposed using a Flask API and containerized using Docker in Azure cloud. The model was used in a proof of concept for the local municipalities. It was graded with a 9 and was submitted to COLING'2020",
     href: "https://theses.liacs.nl/1865",
-    image: "https://www.traffictoday.be/wp-content/uploads/sites/2/2019/10/GoogleBert_1920.jpg",
-    tags: ["Python", "Machine Learning", "NLP", "Huggingface", "Tensorflow", "Flask", "NGINX"]
+    image:
+      "https://www.traffictoday.be/wp-content/uploads/sites/2/2019/10/GoogleBert_1920.jpg",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "NLP",
+      "Huggingface",
+      "Tensorflow",
+      "Flask",
+      "NGINX",
+    ],
   },
   {
     title: "Detecting PII in Git commits",
-    description: "For Master thesis, which I did at ING, I proposed a heavily modifiable tool in which the strength of regular expressions is combined with a state-of-the-art machine learning model to detect a variety of import PII in Git commits. This tool was able to mitigate a significant part of the potential data leaks and was graded with an 8.",
+    description:
+      "For Master thesis, which I did at ING, I proposed a heavily modifiable tool in which the strength of regular expressions is combined with a state-of-the-art machine learning model to detect a variety of import PII in Git commits. This tool was able to mitigate a significant part of the potential data leaks and was graded with an 8.",
     href: "https://repository.tudelft.nl/islandora/object/uuid:fe195c17-ecf5-4811-a987-89f238a6802f",
-    image: "https://opengraph.githubassets.com/25281c37000814e31a325c00c87c68ffc0da43c32c4ee0f751a5b5516aa3ede2/microsoft/CodeBERT",
-    tags: ["GPT-3", "CodeBERT", "Python", "Machine Learning", "NLP", "Regex", "Git", "Flask"]
+    image:
+      "https://opengraph.githubassets.com/25281c37000814e31a325c00c87c68ffc0da43c32c4ee0f751a5b5516aa3ede2/microsoft/CodeBERT",
+    tags: [
+      "GPT-3",
+      "CodeBERT",
+      "Python",
+      "Machine Learning",
+      "NLP",
+      "Regex",
+      "Git",
+      "Flask",
+    ],
   },
   {
     title: "ChatGPT clone",
-    description: "I got access to the GPT-4 API and created a simple clone of the ChatGPT website. This website allows you to chat with a GPT-4 model.",
+    description:
+      "I got access to the GPT-4 API and created a simple clone of the ChatGPT website. This website allows you to chat with a GPT-4 model.",
     href: "https://github.com/Niekvdplas/chat",
-    image: "https://uploads-ssl.webflow.com/5b105a0c66f2f636c7884a17/64063dbcad97bd421b437096_chatgpt.jpg",
-    tags: ["GPT-4", "OpenAI", "NextJS 13", "Tailwind"]
-  }
-
-]
-
+    image:
+      "https://uploads-ssl.webflow.com/5b105a0c66f2f636c7884a17/64063dbcad97bd421b437096_chatgpt.jpg",
+    tags: ["GPT-4", "OpenAI", "NextJS 13", "Tailwind"],
+  },
+];
 
 export const aboutData: about = {
   profileImage: profileImage,
-  description: `I am a recently graduated software engineer with a strong affinity for IT and cutting-edge projects.
-  With my enterprising skills, I can take the lead, am able to quickly learn new topics or skills and am willing to take well-calculated risks and work hard to achieve the desired results. 
-  Through my love for travelling, I am able to plan ahead while considering all relevant options. The ability to handle and deal with unexpected changes in unknown situations is something that defines me. 
-  I am a people's person and like to work together and motivate others to believe in an idea by engaging them in the process.`,
+  description: `I am a highly motivated software engineer with a passion for cutting-edge technology and innovative projects. As a recent graduate, I bring fresh perspectives and up-to-date knowledge to any team. My entrepreneurial mindset enables me to take the lead and take calculated risks to achieve the desired results. I have a keen ability to learn quickly and adapt to new technologies and situations.
+
+  My love for travel has taught me the importance of planning and considering all relevant options, while also developing my flexibility and ability to handle unexpected changes. I excel at working with others and enjoy motivating my team to believe in an idea by involving them in the process.
+  
+  If you're looking for a dedicated and adaptable software engineer to join your team, I'd love to connect!`,
   aboutItems: [
     {
       label: "Location",
@@ -366,7 +442,10 @@ export const education: education[] = [
     location: "TU Delft",
     content: (
       <>
-        <p>Finished with a 7.5/10. Focus on Software Technology, Technology management and entrepreneurship.</p>
+        <p>
+          Finished with a 7.5/10. Focus on Software Technology, Technology
+          management and entrepreneurship.
+        </p>
       </>
     ),
   },
