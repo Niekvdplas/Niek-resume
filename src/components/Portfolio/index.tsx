@@ -12,7 +12,7 @@ export default function Portfolio({projects} :  {projects: Card[]}) {
           <div className="flex flex-col pb-8">
             <div className="md:columns-3 gap-2 overflow-none">
               {/* Card with a thumbnail with a link to the website and some information to the side, on hover an overlay is displayed with some information about the project */}
-              {projects.map((project, index) => (
+              {projects.sort(() => Math.random() - Math.random()).map((project, index) => (
                 <div className="relative py-2 w-full h-max overflow-hidden shadow-lg shadow-black/30 lg:shadow-xl" key={`${project.title}-${index}`}>
                   <PortFolioCard props={project} />
                 </div>
