@@ -16,11 +16,11 @@ export const heroData: hero = {
   image: heroImage,
   typewriter_names: [
     "Niek van der Plas.",
-    "A Software Engineer.",
-    "A full-stack developer.",
-    "A quick learner.",
-    "A problem solver.",
-    "A leader.",
+    "a Software Engineer.",
+    "a full-stack developer.",
+    "a quick learner.",
+    "a problem solver.",
+    "a leader.",
   ],
   description: (
     <>

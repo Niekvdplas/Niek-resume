@@ -13,7 +13,8 @@ export default function Home() {
       <About {...aboutData}/>
       <Resume skills={skills} experience={experience} education={education} noPadding={false}/>
       <Portfolio projects={projects}/>
-      <Contact />
+      <div id='contact'><Contact /></div>
+      
     </div>
     // Hero component
   )
