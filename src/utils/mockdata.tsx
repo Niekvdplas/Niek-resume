@@ -176,7 +176,7 @@ export const projects: Card[] = [
   {
     title: "Lunch site",
     description:
-      "During my Bachelor study I worked part-time at a local software company. During this time I crnpeated a website for the company's lunch service. Which had all state-of-the-art technologies at the time.",
+      "During my Bachelor study I worked part-time at a local software company. During this time I created a website for the company's lunch service. Which had all state-of-the-art technologies at the time.",
     tags: [
       "CI/CD",
       "Kubernetes",
