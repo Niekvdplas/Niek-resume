@@ -1,10 +1,8 @@
 import PortFolioCard from "./Card";
-import { shuffle } from "lodash";
 
 export const revalidate = 10;
 
 export default function Portfolio({projects} :  {projects: Card[]}) {
-  const shuffledProjects: Card[] = shuffle(projects);
   return (
     <div className="bg-neutral-800 text-black px-4 pt-16 md:pt-24 lg:px-8">
       <div className="mx-auto max-w-screen-lg">
@@ -16,7 +14,7 @@ export default function Portfolio({projects} :  {projects: Card[]}) {
           <div className="flex flex-col pb-8">
             <div className="md:columns-3 gap-2 overflow-none">
               {/* Card with a thumbnail with a link to the website and some information to the side, on hover an overlay is displayed with some information about the project */}
-              {shuffledProjects.map((project, index) => (
+              {projects.map((project, index) => (
                 <div className="relative py-2 w-full h-max overflow-hidden shadow-lg shadow-black/30 lg:shadow-xl" key={`${project.title}-${index}`}>
                   <PortFolioCard props={project} />
                 </div>
