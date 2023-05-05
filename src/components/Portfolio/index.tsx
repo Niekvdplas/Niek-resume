@@ -1,7 +1,5 @@
 import PortFolioCard from "./Card";
 
-export const revalidate = 10;
-
 export default function Portfolio({projects} :  {projects: Card[]}) {
   return (
     <div className="bg-neutral-800 text-black px-4 pt-16 md:pt-24 lg:px-8">

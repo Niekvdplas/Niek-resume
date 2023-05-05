@@ -25,11 +25,13 @@ export const heroData: hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am a <strong className="text-stone-100">software engineer</strong> based in Leiden, currently working at
-        <strong className="text-stone-100"> Capgemini</strong>. I am passionate about creating innovative solutions that can
-        transform the world around us. With my strong coding skills and drive to
-        excel, I am committed to pushing the boundaries of what is possible and
-        making a positive impact on people&apos;s lives through technology.
+        I am a <strong className="text-stone-100">software engineer</strong>{" "}
+        based in Leiden, currently working at
+        <strong className="text-stone-100"> Capgemini</strong>. I am passionate
+        about creating innovative solutions that can transform the world around
+        us. With my strong coding skills and drive to excel, I am committed to
+        pushing the boundaries of what is possible and making a positive impact
+        on people&apos;s lives through technology.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can find me in the{" "}
@@ -39,9 +41,8 @@ export const heroData: hero = {
         <strong className="text-stone-100">exploring</strong> the world.{" "}
       </p>
       <p>
-        I have a proven track record of successfully
-        delivering complex software projects and thrive in a collaborative,
-        fast-paced environment.
+        I have a proven track record of successfully delivering complex software
+        projects and thrive in a collaborative, fast-paced environment.
       </p>
     </>
   ),
@@ -106,6 +107,15 @@ export const heroData: hero = {
 
 export const projects: Card[] = [
   {
+    title: "ChatGPT clone",
+    description:
+      "I got access to the GPT-4 API and created a simple clone of the ChatGPT website. This website allows you to chat with a GPT-4 model.",
+    href: "https://github.com/Niekvdplas/chat",
+    image:
+      "https://uploads-ssl.webflow.com/5b105a0c66f2f636c7884a17/64063dbcad97bd421b437096_chatgpt.jpg",
+    tags: ["GPT-4", "OpenAI", "NextJS 13", "Tailwind"],
+  },
+  {
     title: "Woodz kozijnen",
     description:
       "A website for a local company that sells and installs windows and doors.",
@@ -141,14 +151,6 @@ export const projects: Card[] = [
     ],
   },
   {
-    title: "X-arm robot clock",
-    description: "A 7-segment clock I created using an X-arm 7 robot arm.",
-    href: "https://blog.decos.com/de-meest-digitale-klok-van-nederland",
-    image:
-      "https://blog.decos.com/hs-fs/hubfs/blog%20robotklok.jpg?width=1200&name=blog%20robotklok.jpg",
-    tags: ["Python", "Robotics", "C++"],
-  },
-  {
     title: "Demo application with Apache Kafka and websockets",
     description:
       "Demo application that reads data from Apache Kafka and send it to an Angular web application through a websocket connection.",
@@ -165,6 +167,15 @@ export const projects: Card[] = [
     ],
   },
   {
+    title: "X-arm robot clock",
+    description: "A 7-segment clock I created using an X-arm 7 robot arm.",
+    href: "https://blog.decos.com/de-meest-digitale-klok-van-nederland",
+    image:
+      "https://blog.decos.com/hs-fs/hubfs/blog%20robotklok.jpg?width=1200&name=blog%20robotklok.jpg",
+    tags: ["Python", "Robotics", "C++"],
+  },
+
+  {
     title: "Contributions to OSS",
     description:
       "Several contributions to open source projects such as Kubernetes and Ktrain.",
@@ -172,43 +183,6 @@ export const projects: Card[] = [
     image:
       "https://github.com/amaiya/ktrain/raw/master/ktrain_logo_200x100.png",
     tags: ["Python", "Kubernetes", "Machine Learning", "OSS", "Contributions"],
-  },
-  {
-    title: "Lunch site",
-    description:
-      "During my Bachelor study I worked part-time at a local software company. During this time I created a website for the company's lunch service. Which had all state-of-the-art technologies at the time.",
-    tags: [
-      "CI/CD",
-      "Kubernetes",
-      ".NET Core",
-      "Angular",
-      "SQL Server",
-      "Azure",
-      "Docker",
-      "Typescript",
-      "C#",
-      "3rd party APIs (Rabobank, GCP)",
-      "ADFS/OAuth 2.0",
-      "SSL Certificates",
-      "DevOps",
-    ],
-  },
-  {
-    title: "Citizen complaint classification",
-    description:
-      "For my Bachelor thesis I fine-tuned a machine learning model (BERT) that classifies citizen complaints for Decos. The model was trained on 100.000+ complaints and was able to classify complaints with an accuracy of 84%. This model was exposed using a Flask API and containerized using Docker in Azure cloud. The model was used in a proof of concept for the local municipalities. It was graded with a 9 and was submitted to COLING'2020",
-    href: "https://theses.liacs.nl/1865",
-    image:
-      "https://www.traffictoday.be/wp-content/uploads/sites/2/2019/10/GoogleBert_1920.jpg",
-    tags: [
-      "Python",
-      "Machine Learning",
-      "NLP",
-      "Huggingface",
-      "Tensorflow",
-      "Flask",
-      "NGINX",
-    ],
   },
   {
     title: "Detecting PII in Git commits",
@@ -229,13 +203,41 @@ export const projects: Card[] = [
     ],
   },
   {
-    title: "ChatGPT clone",
+    title: "Citizen complaint classification",
     description:
-      "I got access to the GPT-4 API and created a simple clone of the ChatGPT website. This website allows you to chat with a GPT-4 model.",
-    href: "https://github.com/Niekvdplas/chat",
+      "For my Bachelor thesis I fine-tuned a machine learning model (BERT) that classifies citizen complaints for Decos. The model was trained on 100.000+ complaints and was able to classify complaints with an accuracy of 84%. This model was exposed using a Flask API and containerized using Docker in Azure cloud. The model was used in a proof of concept for the local municipalities. It was graded with a 9 and was submitted to COLING'2020",
+    href: "https://theses.liacs.nl/1865",
     image:
-      "https://uploads-ssl.webflow.com/5b105a0c66f2f636c7884a17/64063dbcad97bd421b437096_chatgpt.jpg",
-    tags: ["GPT-4", "OpenAI", "NextJS 13", "Tailwind"],
+      "https://www.traffictoday.be/wp-content/uploads/sites/2/2019/10/GoogleBert_1920.jpg",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "NLP",
+      "Huggingface",
+      "Tensorflow",
+      "Flask",
+      "NGINX",
+    ],
+  },
+  {
+    title: "Lunch site",
+    description:
+      "During my Bachelor study I worked part-time at a local software company. During this time I created a website for the company's lunch service. Which had all state-of-the-art technologies at the time.",
+    tags: [
+      "CI/CD",
+      "Kubernetes",
+      ".NET Core",
+      "Angular",
+      "SQL Server",
+      "Azure",
+      "Docker",
+      "Typescript",
+      "C#",
+      "3rd party APIs (Rabobank, GCP)",
+      "ADFS/OAuth 2.0",
+      "SSL Certificates",
+      "DevOps",
+    ],
   },
 ];
 
