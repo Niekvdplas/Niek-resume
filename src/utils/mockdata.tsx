@@ -1,5 +1,5 @@
 import heroImage from "../images/bg.jpg";
-import profileImage from "../images/pf.jpg";
+import profileImage from "../images/headshot.jpeg";
 import woodzImage from "../images/woodz.png";
 import deltaImage from "../images/lhddelta.png";
 
@@ -17,7 +17,9 @@ export const heroData: hero = {
   typewriter_names: [
     "Niek van der Plas.",
     "a Software Engineer.",
+    "a Data Engineer.",
     "a full-stack developer.",
+    "a team player.",
     "a quick learner.",
     "a problem solver.",
     "a leader.",
@@ -27,10 +29,10 @@ export const heroData: hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I am a <strong className="text-stone-100">software engineer</strong>{" "}
         based in Leiden, currently working at
-        <strong className="text-stone-100"> Capgemini</strong>. I am passionate
+        <strong className="text-stone-100"> Mollie</strong>. I am passionate
         about creating innovative solutions that can transform the world around
-        us. With my strong coding skills and drive to excel, I am committed to
-        pushing the boundaries of what is possible and making a positive impact
+        us. With my strong communicative and coding skills and my drive to excel, I am committed to
+        pushing the boundaries of what is possible and making a positive impact within the team as well as
         on people&apos;s lives through technology.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -243,7 +245,7 @@ export const projects: Card[] = [
 
 export const aboutData: about = {
   profileImage: profileImage,
-  description: `I am a highly motivated software engineer with a passion for cutting-edge technology and innovative projects. As a recent graduate, I bring fresh perspectives and up-to-date knowledge to any team. My entrepreneurial mindset enables me to take the lead and take calculated risks to achieve the desired results. I have a keen ability to learn quickly and adapt to new technologies and situations.
+  description: `I am a highly motivated software engineer with a passion for cutting-edge technology and innovative projects. As a recent graduate, I bring fresh perspectives, a positive vibe and up-to-date knowledge to any team. My entrepreneurial mindset enables me to take the lead and take calculated risks to achieve the desired results. I have a keen ability to learn quickly and adapt to new technologies and situations.
 
   My love for travel has taught me the importance of planning and considering all relevant options, while also developing my flexibility and ability to handle unexpected changes. I excel at working with others and enjoy motivating my team to believe in an idea by involving them in the process.
   
@@ -256,7 +258,7 @@ export const aboutData: about = {
     },
     {
       label: "Age",
-      text: "24",
+      text: "25",
       Icon: CalendarIcon,
     },
     {
@@ -276,7 +278,7 @@ export const aboutData: about = {
     },
     {
       label: "Employment",
-      text: "Capgemini",
+      text: "Mollie",
       Icon: BuildingOffice2Icon,
     },
   ],
@@ -390,6 +392,27 @@ export const skills: SkillGroupType[] = [
     ],
   },
   {
+    name: "Data Engineering",
+    skills: [
+      {
+        name: "Apache Airflow/Cloud Composer",
+        level: 8,
+      },
+      {
+        name: "Terraform",
+        level: 7,
+      },
+      {
+        name: "Metrics collection (Datadog, Prometheus)",
+        level: 8,
+      },
+      {
+        name: "Google Cloud Platform (BigQuery, Pub/Sub, Dataflow, Datastream)",
+        level: 8,
+      },
+    ],
+  },
+  {
     name: "Other",
     skills: [
       {
@@ -409,6 +432,36 @@ export const skills: SkillGroupType[] = [
 ];
 
 export const experience: experience[] = [
+  {
+    date: "September 2023 - Present",
+    title: "Data engineer",
+    location: "Mollie",
+    content: (
+      <>
+        <p>
+          During the graduate program at Mollie, I have worked on a variety of projects.
+          <ul>
+            <li>* Designed, led and built an extendible framework to collect a different set of metrics of the systems to store in Datadog</li>
+            <li>* Took the lead in migrating some of the infra repositories to a new gitflow using folder based environments </li>
+            <li>* Completed a variety of tasks related to data engineering and contributed positively to the team</li>
+          </ul>
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "January 2023 - September 2023",
+    title: "Full-stack Software engineer",
+    location: "Capgemini",
+    content: (
+      <>
+        <p>
+          Worked on several PoC projects for a few big clients of Capgemini. Took the lead in the implementation and design of the PoC.
+          Tech stack included: .NET Core, Azure Cloud
+        </p>
+      </>
+    ),
+  },
   {
     date: "November 2021 - September 2022",
     title: "Software engineer / Data scientist",
